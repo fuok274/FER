@@ -1,0 +1,48 @@
+nav,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #525552;
+    padding: 1em;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav li {
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+
+nav li.brand {
+    font-weight: bold;
+    color: white;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+
+nav li a:hover {
+    background-color: #45a049;
+}
+
+
+nav li a.active {
+    background-color: #3e8e41;
+    font-weight: bold;
+}
